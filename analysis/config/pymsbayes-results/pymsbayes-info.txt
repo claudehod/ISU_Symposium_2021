@@ -1,0 +1,31 @@
+[pymsbayes]
+	version = Version 0.2.4
+	output_directory = /Users/cecg/Desktop/Idarnes/analysis/config/pymsbayes-results
+	temp_directory = /Users/cecg/Desktop/Idarnes/analysis/config/pymsbayes-results/temp-files-EkNqv9
+	sort_index = 0
+	simulation_reps = 0
+	seed = 341292446
+	num_processors = 8
+	num_prior_samples = 5000
+	num_standardizing_samples = 5000
+	bandwidth = 0.002
+	posterior_quantiles = 1000
+	posterior_sample_size = 1000
+	stat_patterns = ^\s*pi\.\d+\s*$, ^\s*wattTheta\.\d+\s*$, ^\s*pi\.net\.\d+\s*$, ^\s*tajD\.denom\.\d+\s*$
+	num_taxon_pairs = 6
+	dry_run = False
+	[[tool_paths]]
+		dpp_msbayes = /Users/cecg/opt/anaconda3/envs/py2/bin/dpp-msbayes.pl
+		msbayes = /Users/cecg/opt/anaconda3/envs/py2/bin/msbayes.pl
+		eureject = /Users/cecg/opt/anaconda3/envs/py2/bin/eureject
+		abcestimator = /Users/cecg/opt/anaconda3/envs/py2/bin/ABCestimator
+	[[observed_configs]]
+		1 = ../config.cfg
+	[[observed_paths]]
+		1 = observed-summary-stats/observed-1.txt
+	[[prior_configs]]
+		1 = ../config.cfg
+	[[run_stats]]
+		start_time = 2021-04-06 10:42:28.487320
+		stop_time = 2021-04-06 10:43:10.301281
+		total_duration = 0:00:41.813961

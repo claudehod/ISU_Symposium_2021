@@ -1,0 +1,355 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Mac OS X 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Cecilias-MacBook-Pro.local (AVX2, FMA3, 8 GB RAM)
+Command: /Users/cecg/Desktop/iqtree-2.1.2-MacOSX/bin/iqtree2 -s Pego3.FINAL.fa -redo
+Seed:    187182 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr  1 17:31:07 2021
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Pego3.FINAL.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 60 sequences with 816 columns, 32 distinct patterns
+8 parsimony-informative, 9 singleton sites, 799 constant sites
+                       Gap/Ambiguity  Composition  p-value
+   1  FW267_baja_california    0.00%    passed    100.00%
+   2  FW535_baja_california    0.00%    passed     99.96%
+   3  FW529_baja_california    0.00%    passed     99.96%
+   4  FW526_baja_california    0.12%    passed     99.93%
+   5  FW268_baja_california    0.00%    passed     99.96%
+   6  FW539_baja_california    0.00%    passed     99.96%
+   7  FW528_baja_california    0.00%    passed     99.97%
+   8  FW537_baja_california    0.12%    passed     99.94%
+   9  FW530_baja_california    0.12%    passed     99.88%
+  10  FW540_baja_california    0.00%    passed     99.97%
+  11  FW538_baja_california    0.00%    passed     99.97%
+  12  FW525_baja_california    0.00%    passed     99.97%
+  13  FW536_baja_california    0.00%    passed     99.97%
+  14  P356_sinaloa_mexico      0.25%    passed     99.49%
+  15  P339_jalisco_mexico      0.37%    passed     99.95%
+  16  P311_sonora_mexico       0.25%    passed     99.98%
+  17  P338_jalisco_mexico      0.00%    passed    100.00%
+  18  P321_sonora_mexico       0.25%    passed     99.98%
+  19  P360_sinaloa_mexico      0.00%    passed     99.91%
+  20  P361_sinaloa_mexico      0.00%    passed     99.97%
+  21  P363_sinaloa_mexico      0.00%    passed     99.97%
+  22  P358_sinaloa_mexico      0.00%    passed     99.97%
+  23  P326_sonora_mexico       0.12%    passed     99.99%
+  24  P324_sonora_mexico       0.12%    passed     99.99%
+  25  P352_sinaloa_mexico      0.00%    passed     99.96%
+  26  P315_sonora_mexico       0.00%    passed     99.99%
+  27  FW533_mainland_mexico    0.12%    passed     99.94%
+  28  P365_sonora_mexico       0.12%    passed     99.98%
+  29  P357_sinaloa_mexico      0.00%    passed    100.00%
+  30  FW534_mainland_mexico    0.00%    passed     99.97%
+  31  P317_sonora_mexico       0.00%    passed     99.97%
+  32  P468_sonora_mexico       0.00%    passed     99.97%
+  33  P458_sonora_mexico       0.00%    passed     99.96%
+  34  P314_sonora_mexico       0.00%    passed     99.95%
+  35  P351_sinaloa_mexico      0.00%    passed     99.96%
+  36  P355_sinaloa_mexico      0.00%    passed     99.96%
+  37  P354_sinaloa_mexico      0.00%    passed    100.00%
+  38  P307_sonora_mexico       0.00%    passed    100.00%
+  39  FW274_jalisco_mexico     0.00%    passed    100.00%
+  40  P308_sonora_mexico       0.00%    passed    100.00%
+  41  P320_sonora_mexico       0.00%    passed    100.00%
+  42  P309_sonora_mexico       0.00%    passed    100.00%
+  43  P277_zacatecas_mexico    0.00%    passed    100.00%
+  44  FW542_mainland_mexico    0.00%    passed    100.00%
+  45  FW270_sonora_mexico      0.00%    passed    100.00%
+  46  P313_sonora_mexico       0.00%    passed    100.00%
+  47  FW269_sonora_mexico      0.00%    passed    100.00%
+  48  P328_sonora_mexico       0.00%    passed    100.00%
+  49  P348_sinaloa_mexico      0.00%    passed    100.00%
+  50  P322_sonora_mexico       0.00%    passed    100.00%
+  51  P359_sinaloa_mexico      0.00%    passed    100.00%
+  52  FW541_mainland_mexico    0.00%    passed    100.00%
+  53  P272_sonora_mexico       0.00%    passed    100.00%
+  54  P362_sinaloa_mexico      0.00%    passed    100.00%
+  55  FW273_jalisco_mexico     0.00%    passed    100.00%
+  56  P364_sinaloa_mexico      0.00%    passed    100.00%
+  57  P325_sonora_mexico       0.00%    passed    100.00%
+  58  P305_sonora_mexico       0.12%    passed    100.00%
+  59  P276_sonora_mexico       0.00%    passed     99.97%
+  60  P303_sonora_mexico       0.00%    passed     99.97%
+****  TOTAL                    0.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: P338_jalisco_mexico is identical to FW267_baja_california but kept for subsequent analysis
+NOTE: FW529_baja_california is identical to FW535_baja_california but kept for subsequent analysis
+NOTE: FW540_baja_california is identical to FW528_baja_california but kept for subsequent analysis
+NOTE: P363_sinaloa_mexico is identical to P361_sinaloa_mexico but kept for subsequent analysis
+NOTE: P351_sinaloa_mexico is identical to P352_sinaloa_mexico but kept for subsequent analysis
+NOTE: P317_sonora_mexico is identical to FW534_mainland_mexico but kept for subsequent analysis
+NOTE: 30 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: P354_sinaloa_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P307_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW274_jalisco_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P308_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P320_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P309_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P277_zacatecas_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW542_mainland_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW270_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P313_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW269_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P328_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P348_sinaloa_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P322_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P359_sinaloa_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW541_mainland_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P272_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P362_sinaloa_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW273_jalisco_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P364_sinaloa_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: P325_sonora_mexico (identical to FW267_baja_california) is ignored but added at the end
+NOTE: FW268_baja_california (identical to FW535_baja_california) is ignored but added at the end
+NOTE: FW539_baja_california (identical to FW535_baja_california) is ignored but added at the end
+NOTE: FW538_baja_california (identical to FW528_baja_california) is ignored but added at the end
+NOTE: FW525_baja_california (identical to FW528_baja_california) is ignored but added at the end
+NOTE: FW536_baja_california (identical to FW528_baja_california) is ignored but added at the end
+NOTE: P276_sonora_mexico (identical to FW528_baja_california) is ignored but added at the end
+NOTE: P303_sonora_mexico (identical to FW528_baja_california) is ignored but added at the end
+NOTE: P358_sinaloa_mexico (identical to P361_sinaloa_mexico) is ignored but added at the end
+NOTE: P468_sonora_mexico (identical to FW534_mainland_mexico) is ignored but added at the end
+Alignment was printed to Pego3.FINAL.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Pego3.FINAL.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1134.162
+Optimal log-likelihood: -1134.083
+Rate parameters:  A-C: 0.00010  A-G: 5.84775  A-T: 0.49869  C-G: 0.00010  C-T: 2.66797  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.090  G: 0.143  T: 0.454
+Proportion of invariable sites: 0.490
+Gamma shape alpha: 0.065
+Parameters optimization took 1 rounds (0.006 sec)
+Time for fast ML tree search: 0.026 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 816) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         1136.967     65  2403.933     2415.373     2709.720
+  2  GTR+F+I       1134.015     66  2400.030     2411.838     2710.522
+  3  GTR+F+G4      1134.683     66  2401.367     2413.174     2711.858
+  4  GTR+F+I+G4    1134.058     67  2402.115     2414.297     2717.311
+  5  GTR+F+R2      1136.141     67  2406.281     2418.463     2721.477
+  6  GTR+F+R3      1135.455     69  2408.909     2421.859     2733.514
+ 14  SYM           1275.706     62  2675.412     2685.786     2967.085
+ 15  SYM+I         1272.897     63  2671.794     2682.517     2968.172
+ 16  SYM+G4        1273.496     63  2672.992     2683.716     2969.370
+ 17  SYM+I+G4      1272.922     64  2673.845     2684.923     2974.927
+ 27  TVM+F         1138.029     64  2404.058     2415.137     2705.141
+ 28  TVM+F+I       1134.652     65  2399.304     2410.744     2705.091
+ 29  TVM+F+G4      1135.616     65  2401.233     2412.673     2707.020
+ 30  TVM+F+I+G4    1134.819     66  2401.637     2413.445     2712.129
+ 40  TVMe          1277.640     61  2677.280     2687.312     2964.250
+ 41  TVMe+I        1274.492     62  2672.985     2683.359     2964.658
+ 42  TVMe+G4       1275.330     62  2674.660     2685.034     2966.333
+ 43  TVMe+I+G4     1274.614     63  2675.229     2685.952     2971.607
+ 53  TIM3+F        1137.023     63  2400.046     2410.770     2696.425
+ 54  TIM3+F+I      1134.095     64  2396.191     2407.270     2697.273
+ 55  TIM3+F+G4     1134.757     64  2397.514     2408.592     2698.596
+ 56  TIM3+F+I+G4   1134.146     65  2398.291     2409.731     2704.078
+ 66  TIM3e         1275.748     60  2671.496     2681.192     2953.761
+ 67  TIM3e+I       1273.022     61  2668.044     2678.076     2955.013
+ 68  TIM3e+G4      1273.677     61  2669.355     2679.387     2956.324
+ 69  TIM3e+I+G4    1273.035     62  2670.071     2680.445     2961.744
+ 79  TIM2+F        1137.834     63  2401.668     2412.392     2698.046
+ 80  TIM2+F+I      1134.746     64  2397.492     2408.571     2698.575
+ 81  TIM2+F+G4     1135.513     64  2399.026     2410.105     2700.109
+ 82  TIM2+F+I+G4   1134.823     65  2399.647     2411.087     2705.434
+ 92  TIM2e         1277.623     60  2675.245     2684.940     2957.510
+ 93  TIM2e+I       1274.763     61  2671.527     2681.558     2958.496
+ 94  TIM2e+G4      1275.391     61  2672.783     2682.814     2959.752
+ 95  TIM2e+I+G4    1274.795     62  2673.591     2683.965     2965.264
+105  TIM+F         1137.911     63  2401.823     2412.546     2698.201
+106  TIM+F+I       1134.829     64  2397.658     2408.737     2698.741
+107  TIM+F+G4      1135.596     64  2399.193     2410.271     2700.275
+108  TIM+F+I+G4    1134.908     65  2399.816     2411.256     2705.603
+118  TIMe          1277.526     60  2675.052     2684.748     2957.317
+119  TIMe+I        1274.677     61  2671.354     2681.386     2958.323
+120  TIMe+G4       1275.300     61  2672.601     2682.632     2959.570
+121  TIMe+I+G4     1274.709     62  2673.418     2683.792     2965.092
+131  TPM3u+F       1138.091     62  2400.183     2410.557     2691.857
+132  TPM3u+F+I     1134.735     63  2395.469     2406.193     2691.848
+133  TPM3u+F+G4    1135.694     63  2397.389     2408.112     2693.767
+134  TPM3u+F+I+G4  1134.900     64  2397.799     2408.878     2698.882
+144  TPM3+F        1138.085     62  2400.171     2410.545     2691.844
+145  TPM3+F+I      1134.727     63  2395.454     2406.178     2691.833
+146  TPM3+F+G4     1135.692     63  2397.385     2408.108     2693.763
+147  TPM3+F+I+G4   1134.895     64  2397.790     2408.869     2698.873
+157  TPM2u+F       1138.901     62  2401.802     2412.177     2693.476
+158  TPM2u+F+I     1135.285     63  2396.570     2407.294     2692.948
+159  TPM2u+F+G4    1136.436     63  2398.871     2409.595     2695.249
+160  TPM2u+F+I+G4  1135.546     64  2399.092     2410.171     2700.175
+170  TPM2+F        1138.901     62  2401.802     2412.177     2693.476
+171  TPM2+F+I      1135.285     63  2396.570     2407.294     2692.948
+172  TPM2+F+G4     1136.436     63  2398.871     2409.595     2695.249
+173  TPM2+F+I+G4   1135.546     64  2399.092     2410.171     2700.175
+183  K3Pu+F        1138.976     62  2401.953     2412.327     2693.626
+184  K3Pu+F+I      1135.355     63  2396.711     2407.434     2693.089
+185  K3Pu+F+G4     1136.515     63  2399.029     2409.753     2695.407
+186  K3Pu+F+I+G4   1135.621     64  2399.242     2410.321     2700.325
+196  K3P           1279.445     59  2676.890     2686.255     2954.451
+197  K3P+I         1276.321     60  2672.641     2682.337     2954.906
+198  K3P+G4        1277.143     60  2674.285     2683.981     2956.550
+199  K3P+I+G4      1276.438     61  2674.876     2684.907     2961.845
+209  TN+F          1137.918     62  2399.836     2410.210     2691.510
+210  TN+F+I        1134.847     63  2395.694     2406.417     2692.072
+211  TN+F+G4       1135.605     63  2397.209     2407.933     2693.587
+212  TN+F+I+G4     1134.923     64  2397.846     2408.925     2698.929
+222  TNe           1277.624     59  2673.248     2682.613     2950.808
+223  TNe+I         1274.765     60  2669.530     2679.225     2951.795
+224  TNe+G4        1275.393     60  2670.786     2680.482     2953.051
+225  TNe+I+G4      1274.799     61  2671.597     2681.629     2958.567
+235  HKY+F         1138.983     61  2399.966     2409.998     2686.935
+236  HKY+F+I       1135.377     62  2394.755     2405.129     2686.428
+237  HKY+F+G4      1136.522     62  2397.044     2407.418     2688.717
+238  HKY+F+I+G4    1135.638     63  2397.276     2408.000     2693.654
+248  K2P           1279.546     58  2675.092     2684.133     2947.948
+249  K2P+I         1276.407     59  2670.814     2680.179     2948.374
+250  K2P+G4        1277.236     59  2672.473     2681.838     2950.033
+251  K2P+I+G4      1276.524     60  2673.049     2682.744     2955.314
+261  F81+F         1148.574     60  2417.148     2426.844     2699.413
+262  F81+F+I       1145.447     61  2412.894     2422.926     2699.864
+263  F81+F+G4      1146.265     61  2414.530     2424.562     2701.500
+264  F81+F+I+G4    1145.558     62  2415.117     2425.491     2706.791
+274  JC            1286.003     57  2686.006     2694.729     2954.158
+275  JC+I          1282.866     58  2681.731     2690.772     2954.587
+276  JC+G4         1283.694     58  2683.388     2692.429     2956.244
+277  JC+I+G4       1282.984     59  2683.967     2693.332     2961.528
+Akaike Information Criterion:           HKY+F+I
+Corrected Akaike Information Criterion: HKY+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to Pego3.FINAL.fa.model.gz
+CPU time for ModelFinder: 0.424 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.434 seconds (0h:0m:0s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1135.377
+Optimal log-likelihood: -1135.377
+Rate parameters:  A-C: 1.00000  A-G: 8.91692  A-T: 1.00000  C-G: 1.00000  C-T: 8.91692  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.090  G: 0.143  T: 0.454
+Proportion of invariable sites: 0.921
+Parameters optimization took 1 rounds (0.001 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.007889 sec (of wall-clock time) 0.007827 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.000092 sec (of wall-clock time) 0.000149 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1174.477
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.056 second
+Computing log-likelihood of 98 initial trees ... 0.042 seconds
+Current best score: -1135.377
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1135.377
+BETTER TREE FOUND at iteration 2: -1135.377
+BETTER TREE FOUND at iteration 4: -1135.377
+BETTER TREE FOUND at iteration 5: -1135.376
+BETTER TREE FOUND at iteration 8: -1135.376
+Iteration 10 / LogL: -1135.377 / Time: 0h:0m:0s
+Iteration 20 / LogL: -1135.377 / Time: 0h:0m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -1135.376 / CPU time: 0.147
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1135.380 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 33: -1135.376
+Iteration 40 / LogL: -1135.377 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -1135.385 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 54: -1135.376
+BETTER TREE FOUND at iteration 60: -1135.376
+Iteration 60 / LogL: -1135.376 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -1135.378 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -1151.335 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -1135.379 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 95: -1135.376
+Iteration 100 / LogL: -1135.380 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 110 / LogL: -1135.376 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 120 / LogL: -1135.377 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 130 / LogL: -1148.831 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 140 / LogL: -1135.378 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 150 / LogL: -1135.380 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 160 / LogL: -1135.379 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 168: -1135.376
+Iteration 170 / LogL: -1139.914 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 180 / LogL: -1135.386 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 190 / LogL: -1135.378 / Time: 0h:0m:0s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 200: -1135.376
+Iteration 200 / LogL: -1135.376 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 210 / LogL: -1135.376 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 220 / LogL: -1135.377 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 230 / LogL: -1135.377 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 240 / LogL: -1135.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 250 / LogL: -1135.376 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 260 / LogL: -1135.383 / Time: 0h:0m:1s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 266: -1135.376
+Iteration 270 / LogL: -1135.381 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 280 / LogL: -1135.379 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 290 / LogL: -1135.383 / Time: 0h:0m:1s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 300: -1135.376
+Iteration 300 / LogL: -1135.376 / Time: 0h:0m:1s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 309: -1135.376
+Iteration 310 / LogL: -1135.376 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 320 / LogL: -1135.381 / Time: 0h:0m:1s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 327: -1135.376
+Iteration 330 / LogL: -1135.377 / Time: 0h:0m:1s (0h:0m:0s left)
+BETTER TREE FOUND at iteration 336: -1135.376
+BETTER TREE FOUND at iteration 339: -1135.376
+Iteration 340 / LogL: -1135.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 350 / LogL: -1135.379 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 360 / LogL: -1135.380 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 370 / LogL: -1135.377 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 380 / LogL: -1135.385 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 390 / LogL: -1135.379 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 400 / LogL: -1135.383 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 410 / LogL: -1135.379 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 420 / LogL: -1138.763 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 430 / LogL: -1139.498 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 440 / LogL: -1135.382 / Time: 0h:0m:1s (0h:0m:-1s left)
+TREE SEARCH COMPLETED AFTER 440 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1135.376
+Optimal log-likelihood: -1135.376
+Rate parameters:  A-C: 1.00000  A-G: 8.93859  A-T: 1.00000  C-G: 1.00000  C-T: 8.93859  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.090  G: 0.143  T: 0.454
+Proportion of invariable sites: 0.921
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -1135.376
+Total tree length: 0.026
+
+Total number of iterations: 440
+CPU time used for tree search: 2.027 sec (0h:0m:2s)
+Wall-clock time used for tree search: 1.866 sec (0h:0m:1s)
+Total CPU time used: 2.048 sec (0h:0m:2s)
+Total wall-clock time used: 1.887 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                Pego3.FINAL.fa.iqtree
+  Maximum-likelihood tree:       Pego3.FINAL.fa.treefile
+  Likelihood distances:          Pego3.FINAL.fa.mldist
+  Screen log file:               Pego3.FINAL.fa.log
+
+Date and Time: Thu Apr  1 17:31:09 2021

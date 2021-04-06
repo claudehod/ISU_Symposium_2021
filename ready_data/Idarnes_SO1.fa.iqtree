@@ -1,0 +1,233 @@
+IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
+
+Input file name: Idarnes_SO1.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 239245
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 36 sequences with 323 nucleotide sites
+Number of constant sites: 300 (= 92.8793% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 300 (= 92.8793% of all sites)
+Number of parsimony informative sites: 16
+Number of distinct site patterns: 38
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+I            -613.089    1374.177 +    0.106    1418.935 +    0.244    1653.724 +    0.565
+TPM3+F+I           -612.109    1374.218 +    0.104    1420.372 +    0.119    1657.542 +   0.0837
+TPM3u+F+I          -612.109    1374.218 +    0.104    1420.372 +    0.119    1657.542 +   0.0837
+TN+F+I             -612.318    1374.635 +   0.0841    1420.789 +   0.0964    1657.959 +   0.0679
+TPM2u+F+I          -612.680    1375.361 +   0.0585    1421.515 +   0.0671    1658.685 -   0.0473
+TPM2+F+I           -612.680    1375.361 +   0.0585    1421.515 +   0.0671    1658.685 -   0.0473
+K3Pu+F+I           -612.754    1375.508 +   0.0544    1421.662 +   0.0623    1658.832 -   0.0439
+HKY+F+I+G4         -613.388    1376.776 -   0.0289    1422.930 -   0.0331    1660.100 -   0.0233
+TIM3+F+I           -611.320    1374.641 +   0.0839    1422.218 -   0.0472    1661.742 -   0.0102
+TIM2+F+I           -611.927    1375.854 -   0.0457    1423.431 -   0.0257    1662.955 -  0.00559
+TIM+F+I            -612.008    1376.015 -   0.0422    1423.592 -   0.0237    1663.117 -  0.00515
+TPM3u+F+I+G4       -612.370    1376.740 -   0.0294    1424.317 -   0.0165    1663.842 -  0.00359
+TPM3+F+I+G4        -612.370    1376.740 -   0.0294    1424.317 -   0.0165    1663.842 -  0.00359
+TN+F+I+G4          -612.559    1377.119 -   0.0243    1424.696 -   0.0137    1664.220 -  0.00297
+TPM2u+F+I+G4       -612.940    1377.880 -   0.0166    1425.457 -  0.00934    1664.981 -  0.00203
+TPM2+F+I+G4        -612.940    1377.880 -   0.0166    1425.457 -  0.00934    1664.981 -  0.00203
+K3Pu+F+I+G4        -613.049    1378.097 -   0.0149    1425.674 -  0.00838    1665.199 -  0.00182
+TIM3+F+I+G4        -611.559    1377.118 -   0.0243    1426.147 -  0.00662    1667.997 - 0.000449
+TVM+F+I            -611.701    1377.402 -   0.0211    1426.431 -  0.00574    1668.281 -  0.00039
+TIM2+F+I+G4        -612.130    1378.261 -   0.0137    1427.289 -  0.00374    1669.140 - 0.000254
+TIM+F+I+G4         -612.243    1378.486 -   0.0123    1427.515 -  0.00334    1669.365 - 0.000227
+GTR+F+I            -610.932    1377.864 -   0.0167    1428.372 -  0.00217    1672.521 - 4.68e-05
+TVM+F+I+G4         -611.921    1379.843 -  0.00623    1430.351 - 0.000809    1674.499 - 1.74e-05
+GTR+F+I+G4         -611.128    1380.255 -  0.00506    1432.272 - 0.000309    1678.690 - 2.14e-06
+GTR+F+G4           -616.856    1389.712 - 4.48e-05    1440.220 - 5.82e-06    1684.369 - 1.25e-07
+GTR+F+R2           -616.092    1390.184 - 3.54e-05    1442.200 - 2.16e-06    1688.618 - 1.49e-08
+GTR+F+R3           -614.405    1390.810 - 2.59e-05    1445.931 - 3.35e-07    1696.800 -  2.5e-10
+F81+F+I            -646.815    1439.630 - 6.48e-16    1483.020 - 2.96e-15    1715.399 - 2.29e-14
+GTR+F              -638.305    1430.609 - 5.89e-14    1479.638 -  1.6e-14    1721.489 - 1.09e-15
+F81+F+I+G4         -647.509    1443.019 - 1.19e-16    1487.777 - 2.74e-16    1722.565 - 6.35e-16
+K2P+I              -665.051    1472.103 - 5.76e-23    1512.836 - 9.92e-22    1740.316 - 8.88e-20
+TNe+I              -663.998    1471.997 - 6.07e-23    1514.045 - 5.42e-22    1743.988 - 1.42e-20
+K3P+I              -665.051    1474.102 - 2.12e-23    1516.150 - 1.89e-22    1746.093 - 4.94e-21
+K2P+I+G4           -665.694    1475.388 - 1.11e-23    1517.436 - 9.94e-23    1747.379 -  2.6e-21
+TIM3e+I            -663.767    1473.535 - 2.81e-23    1516.924 - 1.28e-22    1749.303 - 9.93e-22
+TIM2e+I            -663.991    1473.983 - 2.25e-23    1517.373 - 1.03e-22    1749.752 - 7.94e-22
+TIMe+I             -663.998    1473.995 - 2.23e-23    1517.385 - 1.02e-22    1749.764 - 7.89e-22
+TNe+I+G4           -664.670    1475.340 - 1.14e-23    1518.729 - 5.21e-23    1751.108 - 4.03e-22
+K3P+I+G4           -665.697    1477.394 - 4.08e-24    1520.784 - 1.86e-23    1753.163 - 1.44e-22
+TIM3e+I+G4         -664.326    1476.652 - 5.92e-24    1521.410 - 1.36e-23    1756.198 - 3.16e-23
+TIM2e+I+G4         -664.568    1477.137 - 4.65e-24    1521.895 - 1.07e-23    1756.683 - 2.48e-23
+TIMe+I+G4          -664.576    1477.151 - 4.61e-24    1521.909 - 1.06e-23    1756.698 - 2.46e-23
+TVMe+I             -664.840    1477.679 - 3.54e-24    1522.437 - 8.15e-24    1757.226 - 1.89e-23
+SYM+I              -663.758    1477.515 - 3.84e-24    1523.669 - 4.41e-24    1760.839 -  3.1e-24
+TVMe+I+G4          -665.555    1481.111 - 6.37e-25    1527.264 -  7.3e-25    1764.434 - 5.14e-25
+SYM+I+G4           -664.395    1480.789 - 7.48e-25    1528.366 - 4.21e-25    1767.891 - 9.13e-26
+JC+I               -691.730    1523.460 - 4.05e-34    1562.905 - 1.33e-32    1787.896 - 4.14e-30
+JC+I+G4            -692.403    1526.806 - 7.61e-35    1567.539 - 1.31e-33    1795.019 - 1.17e-31
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+I
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 26.8166
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 26.8166
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3233
+  pi(C) = 0.122
+  pi(G) = 0.1111
+  pi(T) = 0.4436
+
+Rate matrix Q:
+
+  A   -0.6662   0.02293    0.5598   0.08339
+  C   0.06077    -2.318   0.02088     2.236
+  G      1.63   0.02293    -1.736   0.08339
+  T   0.06077     0.615   0.02088   -0.6966
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.8915
+
+ Category  Relative_rate  Proportion
+  0         0              0.8915
+  1         9.216          0.1085
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -611.3122 (s.e. 41.4167)
+Unconstrained log-likelihood (without tree): -625.7710
+Number of free parameters (#branches + #model parameters): 74
+Akaike information criterion (AIC) score: 1370.6244
+Corrected Akaike information criterion (AICc) score: 1415.3825
+Bayesian information criterion (BIC) score: 1650.1707
+
+Total tree length (sum of branch lengths): 0.1459
+Sum of internal branch lengths: 0.0517 (35.4476% of tree length)
+
+WARNING: 20 near-zero internal branches (<0.0031) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon '36_23B_loc2_baja' is drawn at root
+
++**36_23B_loc2_baja
+|
+|                                    +**39_12D_loc2_baja
+|                            +-------|
+|                            |       |                                   +--------------I7_loc3_baja
+|                            |       |                                +**|
+|                            |       |                                |  |   +**I17_1H_loc7_baja
+|                            |       |                                |  +---|
+|                            |       |                                |      +**I36_19_loc12_main
+|                            |       |                             +**|
+|                            |       |                             |  +**I95_13B_loc8_baja
+|                            |       |                         +---|
+|                            |       |                         |   +**I17_1B_loc7_baja
+|                            |       |                   +-----|
+|                            |       |                   |     +**17_1I_loc7_baja
+|                            |       |             +-----|
+|                            |       |             |     +**I17_1A_loc7_baja
+|                            |       |          +**|
+|                            |       |          |  +**I36_23_loc12_main
+|                            |       |  +-------|
+|                            |       |  |       |  +-----I36_28B_loc12_main
+|                            |       |  |       +**|
+|                            |       |  |          +-------------I107_21A_loc15_main
+|                            |       +**|
+|                            |          +**I112_14A_loc11_baja
+|                         +**|
+|                         |  +**I107_14A_loc15_main
+|                      +**|
+|                      |  |      +**I39_12B_loc2_baja
+|                      |  |   +**|
+|                      |  |   |  +----------I10_loc15_main
+|                      |  +---|
+|                      |      +**I36_1C_loc12_main
+|                  +---|
+|                  |   +**I36_23C_loc12_main
+|              +---|
+|              |   |          +------------------I6_loc2_baja
+|              |   +----------|
+|              |              +-------I9_loc3_baja
+|           +**|
+|           |  +**I36_28A_loc12_main
+|        +**|
+|        |  +**I36_28C_loc12_main
+|     +**|
+|     |  +**36_21B_loc12_main
+|  +**|
+|  |  +**I36_23A_loc12_main
++**|
+|  +**I36_28_loc12_main
+|
+|                            +**I39_12C_loc2_baja
+|                    +-------|
+|                    |       +**I70_20A_loc3_baja
+|                 +**|
+|                 |  +**I19_15A_loc6_baja
+|            +----|
+|            |    |     +**I70_19B_loc3_baja
+|            |    |  +**|
+|            |    |  |  |  +-----------------I17_1G_loc7_baja
+|            |    |  |  +**|
+|            |    |  |     +**I107_15A_loc15_main
+|            |    +**|
+|            |       +-------------I36_21A_loc12_main
+|         +**|
+|         |  +**I113_11B_loc10_baja
+|      +**|
+|      |  +----I70_12_loc3_baja
+|   +**|
+|   |  +**I36_18B_loc12_main
++---|
+    +**I36_23D_loc12_main
+
+Tree in newick format:
+
+(36_23B_loc2_baja:0.0000010000,((((((((((39_12D_loc2_baja:0.0000010000,((((((((I7_loc3_baja:0.0112692693,(I17_1H_loc7_baja:0.0000010000,I36_19_loc12_main:0.0000010000):0.0034129610):0.0000010000,I95_13B_loc8_baja:0.0000010000):0.0000026548,I17_1B_loc7_baja:0.0000010000):0.0034232022,17_1I_loc7_baja:0.0000010000):0.0050573474,I17_1A_loc7_baja:0.0000010000):0.0051316200,I36_23_loc12_main:0.0000010000):0.0000021648,(I36_28B_loc12_main:0.0051549285,I107_21A_loc15_main:0.0108843657):0.0000029993):0.0063835443,I112_14A_loc11_baja:0.0000010000):0.0000010000):0.0061511761,I107_14A_loc15_main:0.0000010000):0.0000025185,((I39_12B_loc2_baja:0.0000010000,I10_loc15_main:0.0084021651):0.0000027633,I36_1C_loc12_main:0.0000010000):0.0035606785):0.0000023618,I36_23C_loc12_main:0.0000010000):0.0034815519,(I6_loc2_baja:0.0146520667,I9_loc3_baja:0.0061382050):0.0082548702):0.0033582436,I36_28A_loc12_main:0.0000010000):0.0000010000,I36_28C_loc12_main:0.0000010000):0.0000025493,36_21B_loc12_main:0.0000010000):0.0000010000,I36_23A_loc12_main:0.0000010000):0.0000010000,I36_28_loc12_main:0.0000010000):0.0000026251,(((((((I39_12C_loc2_baja:0.0000029544,I70_20A_loc3_baja:0.0000023926):0.0063304217,I19_15A_loc6_baja:0.0000010000):0.0000021813,((I70_19B_loc3_baja:0.0000010000,(I17_1G_loc7_baja:0.0135186927,I107_15A_loc15_main:0.0000010000):0.0000010000):0.0000025095,I36_21A_loc12_main:0.0106809001):0.0000010000):0.0037464329,I113_11B_loc10_baja:0.0000010000):0.0000010000,I70_12_loc3_baja:0.0036947651):0.0000025147,I36_18B_loc12_main:0.0000010000):0.0000010000,I36_23D_loc12_main:0.0000010000):0.0031255384);
+
+TIME STAMP
+----------
+
+Date and time: Thu Apr  1 17:24:20 2021
+Total CPU time used: 1.34254 seconds (0h:0m:1s)
+Total wall-clock time used: 1.15775 seconds (0h:0m:1s)
+

@@ -1,0 +1,7 @@
+# Call the python2 environment
+
+% conda activate py2
+
+# Calling the program to run analysis
+
+% dmc.py -o config.cfg -p config.cfg -n 5000
