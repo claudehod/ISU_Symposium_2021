@@ -1,0 +1,2 @@
+pi.1	pi.2	pi.3	pi.4	pi.5	pi.6	wattTheta.1	wattTheta.2	wattTheta.3	wattTheta.4	wattTheta.5	wattTheta.6	pi.net.1	pi.net.2	pi.net.3	pi.net.4	pi.net.5	pi.net.6	tajD.denom.1	tajD.denom.2	tajD.denom.3	tajD.denom.4	tajD.denom.5	tajD.denom.6
+0.024320	0.000984	0.002772	0.002040	0.015801	0.008240	0.035557	0.003457	0.007037	0.003485	0.017255	0.012629	0.007474	0.000000	0.000000	0.003003	0.013746	0.001826	0.056066	0.018119	0.023269	0.019919	0.039673	0.032264
