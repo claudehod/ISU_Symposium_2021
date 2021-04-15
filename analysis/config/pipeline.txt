@@ -4,4 +4,23 @@
 
 # Calling the program to run analysis
 
-% dmc.py -o config.cfg -p config.cfg -n 5000
+% dmc.py -o config.cfg -p config.cfg -n ~number~
+
+
+# Using matplotlib
+
+$ dmc_plot_results.py pymsbayes-results/pymsbayes-info.txt
+
+
+
+
+
+
+numpy vs 1.16.5
+dateutil vs 2.8.1
+tornado vs 5.1.1
+pyparsing vs 2.4.7
+pycss
+libagg
+freetype
+png

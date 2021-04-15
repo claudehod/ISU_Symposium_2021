@@ -1,0 +1,26 @@
+---
+title: "MatPlotLib is Stupid"
+author: "Ceci"
+date: "4/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Getting stupid plots
+
+Step one: uploading necessary packages:
+
+```{r}
+install.packages("tidyverse")
+install.packages("ggplot2")
+```
+
+
+Step two: reading the text file as a csv file
+
+```{r}
+results_n5000 <- read.delim('/Users/cecg/Desktop/ISU_Symposium_2021/analysis/config/config_analysis/pymsbayes-results-n5000/pymsbayes-output/d1/m1/d1-m1-s1-5000-psi-results.txt')
+```
